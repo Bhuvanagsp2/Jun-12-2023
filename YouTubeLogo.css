@@ -1,0 +1,28 @@
+body{
+  background-color:whitesmoke;
+}
+.container{
+  display:flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.triangle{
+  margin-top:3.2rem;
+  margin-left:6.2rem;
+  border-top: 1.5rem solid transparent;
+	border-left: 3.5rem  solid white;
+	border-bottom: 1.5rem solid transparent;
+}
+.logo{
+  width:14.5rem;
+  background-color:#FF0000;
+  border-radius: 30%;
+}
+.text{
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding-left:1rem;
+  font-size:8rem;
+  font-weight:600;
+}
